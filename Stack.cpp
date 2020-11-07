@@ -1,7 +1,7 @@
 #include "Stack.h"
 
 struct Node {
-  unsigned elem;
+  unsigned aluno;
   Node* next;
 };
 
@@ -13,7 +13,7 @@ Stack::Stack() {
 
 void Stack::push(unsigned elem) {
   Node *novo_elemento = new Node;
-  novo_elemento->elem = elem;
+  novo_elemento->aluno = aluno;
   if (_top == nullptr)
   {
     _top = novo_elemento;
@@ -51,7 +51,7 @@ unsigned Stack::top() const {
   }
   else
   {
-    return _top->elem;
+    return _top->aluno;
   }
   
 }
