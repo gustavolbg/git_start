@@ -1,5 +1,8 @@
 #include "Stack.h"
 
+#Arquivo utilizados na matéria e
+#como um apredizado de git
+
 struct Node {
   unsigned aluno;
   Node* next;
